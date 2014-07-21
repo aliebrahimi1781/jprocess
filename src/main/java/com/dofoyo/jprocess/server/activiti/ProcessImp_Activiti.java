@@ -1,11 +1,11 @@
-package com.dofoyo.jprocess.activiti;
+package com.dofoyo.jprocess.server.activiti;
 
 import org.activiti.engine.ProcessEngine;
 import org.activiti.engine.ProcessEngines;
 
-import com.dofoyo.jprocess.Process;
+import com.dofoyo.jprocess.server.ProcessServer;
 
-public class ProcessImp_Activiti implements Process {
+public class ProcessImp_Activiti implements ProcessServer {
 
 	@Override
 	public String start(String processId) {
